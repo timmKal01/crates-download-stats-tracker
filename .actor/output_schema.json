@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Crates.io Download Stats Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Stats",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

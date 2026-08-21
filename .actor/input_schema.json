@@ -1,0 +1,23 @@
+{
+    "title": "Crates.io Download Stats Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "crates": {
+            "title": "Crates",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Rust crate names to check, e.g. \"serde\", \"tokio\". At least one required."
+        },
+        "daysBack": {
+            "title": "Period length (days)",
+            "type": "integer",
+            "editor": "number",
+            "description": "Length of the period to measure, and also the length of the prior period it's compared against. crates.io's public stats only retain roughly the last 90 days of history.",
+            "default": 7,
+            "minimum": 1,
+            "maximum": 45
+        }
+    },
+    "required": ["crates"]
+}
