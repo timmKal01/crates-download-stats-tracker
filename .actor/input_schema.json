@@ -7,7 +7,9 @@
             "title": "Crates",
             "type": "array",
             "editor": "stringList",
-            "description": "Rust crate names to check, e.g. \"serde\", \"tokio\". At least one required."
+            "description": "Rust crate names to check, e.g. \"serde\", \"tokio\". At least one required.",
+            "prefill": ["serde"],
+            "default": ["serde"]
         },
         "daysBack": {
             "title": "Period length (days)",
