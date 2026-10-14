@@ -6,9 +6,9 @@ length.
 
 Built for tracking Rust ecosystem adoption trends — is a crate gaining
 or losing ground — the Rust-ecosystem counterpart to [NPM Download
-Stats Tracker](https://github.com/timmKal01/npm-download-stats-tracker)
+Stats Tracker](https://apify.com/m_ctim/npm-download-stats-tracker)
 and [PyPI Download Stats
-Tracker](https://github.com/timmKal01/pypi-download-stats-tracker).
+Tracker](https://apify.com/m_ctim/pypi-download-stats-tracker).
 
 ## Input
 
@@ -60,5 +60,5 @@ check 1 crate or several.
 
 ## Related products
 
-- [NPM Download Stats Tracker](https://github.com/timmKal01/npm-download-stats-tracker) — the same trend tracking for npm/JavaScript packages
-- [PyPI Download Stats Tracker](https://github.com/timmKal01/pypi-download-stats-tracker) — the same trend tracking for PyPI/Python packages
+- [npm Download Stats](https://apify.com/m_ctim/npm-download-stats-tracker): the same trend tracking for npm/JavaScript packages
+- [PyPI Download Stats](https://apify.com/m_ctim/pypi-download-stats-tracker): the same trend tracking for PyPI/Python packages
